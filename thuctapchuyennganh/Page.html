@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TOEIC</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="page.css">
+	<script type="text/javascript" src="page.js"></script>
+</head>
+<body>
+	<div class="container">
+	<p class="text1">Chào mừng đến với</p>
+	<br>
+	<span class="text2">Luyện thi TOEIC online</span>
+	</div>
+	<div class="middle">
+		<button class="btn btn1"  onclick="myFunction()" >Thi mini toeic</button>
+		<a href="index.html"><button class="btn btn2">Thi toeic</button></a><br>
+		<div id="myDIV" >
+			<a href="nghe.html"><button class="btn btnn" >Thi nghe</button></a>
+			<a href="mini.html"><button class="btn btnd" >Thi đọc toeic</button></a>
+		</div>
+		<script >
+		function myFunction() {
+ 		 var x = document.getElementById("myDIV");
+ 		if (x.style.visibility === "visible") {
+   		 	x.style.visibility = 'hidden';
+  		} else {
+    		x.style.visibility = "visible";
+  			}
+		}
+		</script>
+		
+	</div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+	background: #FCE4EC;
+}
+
+table {
+	background: none;
+	margin: auto;
+	width: 480px;
+	height: 80px;
+	border: 2px solid #3388003;
+	font-size: 18px;
+	border-radius: 8px;
+	transition: .6s;
+	overflow: hidden;
+	text-align: center;
+}
+
+.title{
+	font-size: 18px;
+}
+.back{
+	border: 3px solid #FFA000  ;
+	color: #fff  ;
+	margin: auto;
+	background: #78909C;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 3px;
+	position: fixed;
+	left: 2%;
+	bottom: 3%;
+}
+
+#quiz{
+	margin-left: 23%;
+	background: #d2def2;
+	padding: 10px 20px 10px 20px;
+	width: 800px;
+	border-radius: 20px;
+	float: left;
+}
+#error{
+	cursor: pointer;
+	width: 240px;
+	height: 60px;
+	margin-top: 40px;
+}
+#click{
+	visibility: hidden;
+}
+.btn{
+	border: 3px solid #FFA000  ;
+	color: #FFAB91  ;
+	margin: auto;
+	background: #78909C;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 3px;
+	color: white;
+	background-color: #1abc9c;
+	position: fixed;
+	right: 2%;
+	bottom: 10%;
+}

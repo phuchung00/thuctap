@@ -1,0 +1,42 @@
+body{
+	background: #FCE4EC;
+}
+#quiz{
+	margin-left: 23%;
+	background: #d2def2;
+	padding: 10px 20px 10px 20px;
+	width: 800px;
+	border-radius: 20px;
+	float: left;
+}
+.btn{
+	border: 3px solid #FFA000  ;
+	color: #fff  ;
+	margin: auto;
+	background: #78909C;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 3px;
+	position: fixed;
+	right: 2%;
+	bottom: 3%;
+}
+#click{
+	visibility: hidden;
+
+}
+h2{
+	text-align: center;
+}
+.back{
+	border: 3px solid #FFA000  ;
+	color: #fff  ;
+	margin: auto;
+	background: #78909C;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 3px;
+	position: fixed;
+	left: 2%;
+	bottom: 20%;
+}

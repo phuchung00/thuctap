@@ -1,0 +1,104 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+}
+#after_submit{
+	visibility: hidden;
+}
+#click{
+	visibility: hidden;
+}
+#confirm{
+	visibility: hidden;
+}
+#clicked{
+	visibility: hidden;
+}
+.float {
+	padding: 10px;
+	border-radius: 3px;
+	color: white;
+	background-color: #1abc9c;
+	position: fixed;
+	right: 2%;
+	bottom: 3%;
+}
+.btn{
+	border: 3px solid #FFA000  ;
+	color: #FFAB91  ;
+	margin: auto;
+	background: #78909C;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 3px;
+	color: white;
+	background-color: #1abc9c;
+	position: fixed;
+	left: 10%;
+	bottom: 10%;
+}
+#quiz{
+	margin-left: 23%;
+	background: #d2def2;
+	padding: 10px 20px 10px 20px;
+	width: 800px;
+	border-radius: 20px;
+	float: left;
+}
+h2{
+	text-align: center;
+}
+.tg{
+	border-collapse:collapse;
+	border-spacing:0;
+
+}
+.red{
+	color: red;
+
+}
+.er{
+	text-align: center;
+}
+.font12{
+	font-size: 13px;
+	text-align: center;
+}
+
+.cen{
+	text-align: center;
+	font-size: 20px;
+	font-style: bold;
+}
+.tg tr{
+	
+	padding:10px 5px;
+	border-style:solid;
+	border-width:3px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:black;
+}
+.tg th{
+	
+	padding:10px 5px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:black;
+}
+.tg .tg-0lax{
+	text-align:left;
+	vertical-align:top
+}
+.cen{
+	text-align: center;
+}
+.tg .tg-1lax{
+	text-align:center;
+	vertical-align:top
+}
+table{
+	margin: auto;
+}

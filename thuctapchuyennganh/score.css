@@ -1,0 +1,31 @@
+body{
+	font-family: 'Verdana', sans-serif;
+}
+h2{
+	text-align: center;
+	
+}
+h3{
+	text-align: center;
+	margin-right: : 40px;
+}
+.query{
+	margin-left: 60px;
+	background: #BBDEFB;
+	padding: 30px 30px ;
+	width: 900px;
+	margin-left: 20%;
+	border-radius: 23px;
+}
+.back{
+	border: 3px solid #FFA000  ;
+	color: #fff  ;
+	margin: auto;
+	background: #78909C;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 3px;
+	position: fixed;
+	left: 2%;
+	bottom: 3%;
+}
